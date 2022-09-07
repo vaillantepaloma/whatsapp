@@ -10,7 +10,7 @@ function MessageCard(props) {
     return( <>
         <button className='card-btn' onClick={_=>onMessageCardClick(data)}>
             <div className="card">
-                <img src={props.profile} alt="" draggable="false" class="profile-pic" />
+                {/* <img src={props.profile} alt="" draggable="false" class="profile-pic" /> */}
                     <div className="card-content">
                         <div className="upper-content">
                             <p className='contact-name'>{props.name}</p>
